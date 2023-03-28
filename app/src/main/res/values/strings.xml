@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AjitsDirect</string>
+    <string name="hint1">For Your Message to Send Click below options :</string>
+    <string name="hint2">For Custom Message, paste your details below :</string>
+    <string name="hint3">Enter Any WhatsApp Number To Send Message With Out Storing Contact</string>
+    <string name="hint4">Input or Paste Multiple Numbers (10 Digit)</string>
+    <string name="hint5">Type or Paste Custom Message.</string>
+    <string name="hint6">Input or Paste Single Number (10 Digit)</string>
+
+</resources>

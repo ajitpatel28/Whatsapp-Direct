@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/privacy"
+        android:orderInCategory="100"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/disclaimer"
+        android:orderInCategory="100"
+        android:title="Disclaimer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/termsandcondition"
+        android:orderInCategory="100"
+        android:title="Terms and Condition"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/otherapp"
+        android:orderInCategory="100"
+        android:title="Other Apps"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/baseline_share_24"
+        android:title="Share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Setting"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_upload"
+        android:icon="@drawable/baseline_upload_24"
+        android:title="Upload Csv"
+        app:showAsAction="always" />
+</menu>

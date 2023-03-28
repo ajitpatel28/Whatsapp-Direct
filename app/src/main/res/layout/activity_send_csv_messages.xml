@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tools:context=".SendCsvMessagesActivity">
+
+        <TextView
+            android:id="@+id/custom_message_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom message:"
+            android:textSize="25sp" />
+
+
+        <EditText
+            android:id="@+id/custom_message_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_message_label"
+            android:inputType="text"
+            android:layout_marginTop="32dp"
+
+            android:maxLines="1"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:hint=""/>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@+id/custom_message_edittext">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/csv_upload_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1.2"
+            android:background="@drawable/whatsappbackground"
+            android:clickable="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="UPLOAD CSV FILE"
+            android:textAppearance="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/grey_80"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@+id/upload">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/send_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1.2"
+            android:background="@drawable/whatsappbackground"
+            android:clickable="true"
+            android:drawableLeft="@drawable/send24"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="SEND WHATSAPP"
+            android:textAppearance="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/grey_80"
+            android:textSize="18dp" />
+    </LinearLayout>
+</RelativeLayout>
